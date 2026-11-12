@@ -21,7 +21,8 @@
 
 An explainer. It holds this page and the pictures on it, and no source code: the app's code is in a
 private repository. Every picture is a screenshot of the current app on a demo account with made-up
-courses, in the light or dark theme to match your GitHub theme.
+courses, in the light or dark theme to match your GitHub theme. The one exception is Live: its
+pictures show the new Live design, which is being built now.
 
 StudySync is pre-launch. It has no customers yet and runs as a private beta behind invite codes.
 
@@ -91,7 +92,7 @@ your own character waits beside it.
     <td width="25%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/phone-card-front-dark.png"><img src="docs/phone-card-front-light.png" alt="The front of a flashcard: What is a p-value?"></picture></td>
     <td width="25%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/phone-card-back-dark.png"><img src="docs/phone-card-back-light.png" alt="The back of the flashcard, with Again and Got it"></picture></td>
     <td width="25%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/phone-quiz-dark.png"><img src="docs/phone-quiz-light.png" alt="A week quiz question with four answers"></picture></td>
-    <td width="25%"><img src="docs/phone-live-light.png" alt="StudySync Live on a phone: four coloured answer pads, A to D"></td>
+    <td width="25%"><img src="docs/live-phone-pads.png" alt="StudySync Live on a phone: four big answer keys, A to D, under a progress bar"></td>
   </tr>
   <tr>
     <td align="center"><b>Card, front</b></td>
@@ -108,12 +109,41 @@ your own character waits beside it.
 
 ## Live, for the whole class
 
-<img src="docs/desk-live-light.png" alt="The Live lobby on a projector: join at studysync.nl/live with a six-digit code and a QR code, one player in, called Steady Heron" width="100%">
+<img src="docs/live-lobby.png" alt="The Live lobby on the big screen: join at studysync.nl/live with a six-digit code and a QR code, 24 players standing as their characters with made-up names" width="100%">
 
 **Live** is a quiz for the whole class, on Canvas courses a teacher teaches: the teacher opens a lobby
 on the big screen and phones join with the code. The question stays on the screen; phones only show
-the answer pads. By default every player gets a made-up name and a made-up character, so the board
+the answer keys. By default every player gets a made-up name and a made-up character, so the board
 says nothing about who is who.
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/live-reveal.png" alt="The reveal on the big screen: how the class answered, as four columns, the right one marked, with why it is right"></td>
+    <td width="50%"><img src="docs/live-podium.png" alt="The podium: the top three characters on their plinths with crowns, and how much the class got right together"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>The reveal</b><br>How the class answered, and why</td>
+    <td align="center"><b>The podium</b><br>The top three, crowned</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="25%"><img src="docs/live-phone-name.png" alt="A phone after joining: You are Steady Heron, with a made-up character"></td>
+    <td width="25%"><img src="docs/live-phone-pads.png" alt="The phone during a question: four big answer keys"></td>
+    <td width="25%"><img src="docs/live-phone-correct.png" alt="The phone after the reveal: Correct, plus 846 points, the character cheering"></td>
+    <td width="25%"><img src="docs/live-phone-podium.png" alt="The phone at the end: 2nd place, on the podium, look at the screen"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Join</b><br>A made-up name</td>
+    <td align="center"><b>Answer</b><br>The phone is the buzzer</td>
+    <td align="center"><b>Reveal</b><br>Your own result only</td>
+    <td align="center"><b>End</b><br>Your place</td>
+  </tr>
+</table>
+
+<sub>The Live pictures show the new Live design, drawn from the approved prototype. It is being built
+now; until it ships, the app still shows the previous Live screens.</sub>
 
 ## Rewards, without a shop that takes money
 
