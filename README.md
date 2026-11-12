@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src="docs/hero.png" alt="Four StudySync screens: a week's path, a question, a flashcard and a chest" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/hero-dark.png">
+  <img src="docs/hero-light.png" alt="Four StudySync screens on a phone: a week's path, a missed answer with the right one shown, a flashcard and an opened chest" width="100%">
+</picture>
 
 # StudySync
 
@@ -17,7 +20,8 @@
 ## What this repository is
 
 An explainer. It holds this page and the pictures on it, and no source code: the app's code is in a
-private repository. Every picture is a screenshot of the real app on a demo account.
+private repository. Every picture is a screenshot of the current app on a demo account with made-up
+courses, in the light or dark theme to match your GitHub theme.
 
 StudySync is pre-launch. It has no customers yet and runs as a private beta behind invite codes.
 
@@ -56,17 +60,21 @@ flowchart LR
 
 ## The week's path
 
-<img src="docs/desk-path.png" alt="A course's path on a desktop: round keys along a road through a campus" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/desk-path-dark.png">
+  <img src="docs/desk-path-light.png" alt="A course's path on a desktop: the week's banner, then round keys for Terms, Meaning, Recall and Mixed, the path chest and the week check, with the week's place beside the trail" width="100%">
+</picture>
 
-Each week of a course is a place on a campus, and its steps stand along a road. The next step is
-always the one that is lit.
+Each week of a course is a place on a campus, and its steps stand along a trail: match the words,
+pick the meaning, type it, all of it mixed, then the week check. The next step is the lit one, and
+your own character waits beside it.
 
 <table>
   <tr>
-    <td width="25%"><img src="docs/phone-home.png" alt="Home on a phone: the next step, today's goal and the cards to review"></td>
-    <td width="25%"><img src="docs/phone-path.png" alt="A week's path on a phone"></td>
-    <td width="25%"><img src="docs/phone-question.png" alt="A multiple-choice question about when an argument is valid"></td>
-    <td width="25%"><img src="docs/phone-not-quite.png" alt="A missed answer: Not quite, with the right answer below"></td>
+    <td width="25%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/phone-home-dark.png"><img src="docs/phone-home-light.png" alt="Home on a phone: the next step on its campus picture, today's goal with its chest, the cards to review and the courses"></picture></td>
+    <td width="25%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/phone-path-dark.png"><img src="docs/phone-path-light.png" alt="A week's path on a phone"></picture></td>
+    <td width="25%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/phone-question-dark.png"><img src="docs/phone-question-light.png" alt="Pick the meaning: What is sampling bias? with four answers"></picture></td>
+    <td width="25%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/phone-not-quite-dark.png"><img src="docs/phone-not-quite-light.png" alt="A missed answer: Not quite, with the right answer below"></picture></td>
   </tr>
   <tr>
     <td align="center"><b>Home</b><br>One next step</td>
@@ -80,49 +88,66 @@ always the one that is lit.
 
 <table>
   <tr>
-    <td width="25%"><img src="docs/phone-card-front.png" alt="The front of a flashcard"></td>
-    <td width="25%"><img src="docs/phone-card-back.png" alt="The back of the flashcard, with Again and Got it"></td>
-    <td width="25%"><img src="docs/phone-quiz.png" alt="A quiz question with four answers"></td>
-    <td width="25%"><img src="docs/phone-live.png" alt="StudySync Live on a phone: the player is called Plucky Bison"></td>
+    <td width="25%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/phone-card-front-dark.png"><img src="docs/phone-card-front-light.png" alt="The front of a flashcard: What is a p-value?"></picture></td>
+    <td width="25%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/phone-card-back-dark.png"><img src="docs/phone-card-back-light.png" alt="The back of the flashcard, with Again and Got it"></picture></td>
+    <td width="25%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/phone-quiz-dark.png"><img src="docs/phone-quiz-light.png" alt="A week quiz question with four answers"></picture></td>
+    <td width="25%"><img src="docs/phone-live-light.png" alt="StudySync Live on a phone: four coloured answer pads, A to D"></td>
   </tr>
   <tr>
     <td align="center"><b>Card, front</b></td>
     <td align="center"><b>Card, back</b><br>Again or Got it</td>
     <td align="center"><b>Week quiz</b><br>No answer key is sent before you answer</td>
-    <td align="center"><b>Live</b><br>A class quiz, under a made-up name</td>
+    <td align="center"><b>Live</b><br>The phone is the buzzer</td>
   </tr>
 </table>
 
-<img src="docs/desk-match.png" alt="Match the pairs on a desktop: terms on the left, meanings on the right" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/desk-match-dark.png">
+  <img src="docs/desk-match-light.png" alt="Match the pairs on a desktop: terms on the left, meanings on the right, the student's character beside them" width="100%">
+</picture>
 
-**Live** is a quiz for the whole class, on Canvas courses a teacher teaches: the teacher starts a
-game on the big screen and phones join with a code. By default every player gets a made-up name and
-a made-up character, so the board says nothing about who is who.
+## Live, for the whole class
+
+<img src="docs/desk-live-light.png" alt="The Live lobby on a projector: join at studysync.nl/live with a six-digit code and a QR code, one player in, called Steady Heron" width="100%">
+
+**Live** is a quiz for the whole class, on Canvas courses a teacher teaches: the teacher opens a lobby
+on the big screen and phones join with the code. The question stays on the screen; phones only show
+the answer pads. By default every player gets a made-up name and a made-up character, so the board
+says nothing about who is who.
 
 ## Rewards, without a shop that takes money
 
 <table>
   <tr>
-    <td width="25%"><img src="docs/phone-chest.png" alt="An opened chest: 50 diamonds and a campus cap"></td>
-    <td width="25%"><img src="docs/phone-level.png" alt="Level 10 reached"></td>
-    <td width="25%"><img src="docs/phone-shop.png" alt="The shop on a phone"></td>
+    <td width="25%"><img src="docs/phone-chest-climb-light.png" alt="A week chest on a dark screen, rarity Common, three taps to go"></td>
+    <td width="25%"><img src="docs/phone-chest-light.png" alt="The opened chest, now Rare: 40 diamonds and a streak freeze"></td>
+    <td width="25%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/phone-shop-dark.png"><img src="docs/phone-shop-light.png" alt="The Shop on a phone: this week's pick, a telescope, unlocked at level 15"></picture></td>
     <td width="25%" valign="top">
       <br>
       <b>Earned by studying, never bought.</b><br><br>
       Studying pays XP and diamonds. Diamonds unlock things for your character and its room.
-      Nothing in StudySync can be bought with money, and the odds of what a chest can hold are
-      shown in the shop.<br><br>
+      Nothing in StudySync can be bought with money. What a chest holds is fixed when you earn
+      it; the taps only show it, and the odds are in the Shop.<br><br>
       A school decides whether rewards are on at all.
     </td>
   </tr>
+  <tr>
+    <td align="center"><b>A chest</b><br>Common to start</td>
+    <td align="center"><b>Opened</b><br>What it held</td>
+    <td align="center"><b>Shop</b><br>Unlock, never buy</td>
+    <td></td>
+  </tr>
 </table>
 
-<img src="docs/desk-shop.png" alt="The shop on a desktop: a campus store, 340 diamonds, hats to unlock" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/desk-shop-dark.png">
+  <img src="docs/desk-shop-light.png" alt="The Shop on a desktop: departments on the left, this week's pick, a telescope (reach level 15, then 650 diamonds), and the week's picks" width="100%">
+</picture>
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/desk-cell.png" alt="Make your cell: shapes, colours, eyes and hair"></td>
-    <td width="50%"><img src="docs/desk-study.png" alt="Study on a desktop: continue, cards due and the courses as campuses"></td>
+    <td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/desk-cell-dark.png"><img src="docs/desk-cell-light.png" alt="Make your cell: shapes, colours, eyes, mouth, hair and moves"></picture></td>
+    <td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/desk-study-dark.png"><img src="docs/desk-study-light.png" alt="Study on a desktop: continue, the cards due, and the courses as campuses"></picture></td>
   </tr>
   <tr>
     <td align="center"><b>Your cell</b><br>Every student has a character that studies along</td>
@@ -173,4 +198,4 @@ that work are public: see [my profile](https://github.com/DevCrazyCube).
 
 [studysync.nl](https://studysync.nl) · [@studysyncnl on Instagram](https://www.instagram.com/studysyncnl) · [Joyren Terken on LinkedIn](https://www.linkedin.com/in/joyren-terken-0bb02429a)
 
-<sub>© 2026 Joyren Terken. The pictures and text here are not open source; ask before reusing them.</sub>
+<sub>Screenshots taken 2026-11-12 from the current app. © 2026 Joyren Terken. The pictures and text here are not open source; ask before reusing them.</sub>
