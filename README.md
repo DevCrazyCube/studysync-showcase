@@ -92,7 +92,7 @@ your own character waits beside it.
     <td width="25%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/phone-card-front-dark.png"><img src="docs/phone-card-front-light.png" alt="The front of a flashcard: What is a p-value?"></picture></td>
     <td width="25%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/phone-card-back-dark.png"><img src="docs/phone-card-back-light.png" alt="The back of the flashcard, with Again and Got it"></picture></td>
     <td width="25%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/phone-quiz-dark.png"><img src="docs/phone-quiz-light.png" alt="A week quiz question with four answers"></picture></td>
-    <td width="25%"><img src="docs/live-phone-pads.png" alt="StudySync Live on a phone: four big answer keys, A to D, under a progress bar"></td>
+    <td width="25%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/live-phone-pads-dark.png"><img src="docs/live-phone-pads-light.png" alt="StudySync Live on a phone: four big answer keys, A to D, under a progress bar"></picture></td>
   </tr>
   <tr>
     <td align="center"><b>Card, front</b></td>
@@ -109,7 +109,7 @@ your own character waits beside it.
 
 ## Live, for the whole class
 
-<img src="docs/live-lobby.png" alt="The Live lobby on the big screen: join at studysync.nl/live with a six-digit code and a QR code, 24 players standing as their characters with made-up names" width="100%">
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/live-lobby-dark.png"><img src="docs/live-lobby-light.png" alt="The Live lobby on the big screen: join at studysync.nl/live with a six-digit code and a QR code, 24 players standing as their characters with made-up names" width="100%"></picture>
 
 **Live** is a quiz for the whole class, on Canvas courses a teacher teaches: the teacher opens a lobby
 on the big screen and phones join with the code. The question stays on the screen; phones only show
@@ -118,8 +118,8 @@ says nothing about who is who.
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/live-reveal.png" alt="The reveal on the big screen: how the class answered, as four columns, the right one marked, with why it is right"></td>
-    <td width="50%"><img src="docs/live-podium.png" alt="The podium: the top three characters on their plinths with crowns, and how much the class got right together"></td>
+    <td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/live-reveal-dark.png"><img src="docs/live-reveal-light.png" alt="The reveal on the big screen: how the class answered, as four columns, the right one marked, with why it is right"></picture></td>
+    <td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/live-podium-dark.png"><img src="docs/live-podium-light.png" alt="The podium: the top three characters on their plinths with crowns, and how much the class got right together"></picture></td>
   </tr>
   <tr>
     <td align="center"><b>The reveal</b><br>How the class answered, and why</td>
@@ -129,10 +129,10 @@ says nothing about who is who.
 
 <table>
   <tr>
-    <td width="25%"><img src="docs/live-phone-name.png" alt="A phone after joining: You are Steady Heron, with a made-up character"></td>
-    <td width="25%"><img src="docs/live-phone-pads.png" alt="The phone during a question: four big answer keys"></td>
-    <td width="25%"><img src="docs/live-phone-correct.png" alt="The phone after the reveal: Correct, plus 846 points, the character cheering"></td>
-    <td width="25%"><img src="docs/live-phone-podium.png" alt="The phone at the end: 2nd place, on the podium, look at the screen"></td>
+    <td width="25%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/live-phone-name-dark.png"><img src="docs/live-phone-name-light.png" alt="A phone after joining: You are Steady Heron, with a made-up character"></picture></td>
+    <td width="25%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/live-phone-pads-dark.png"><img src="docs/live-phone-pads-light.png" alt="The phone during a question: four big answer keys"></picture></td>
+    <td width="25%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/live-phone-correct-dark.png"><img src="docs/live-phone-correct-light.png" alt="The phone after the reveal: Correct, plus 846 points, the character cheering"></picture></td>
+    <td width="25%"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/live-phone-podium-dark.png"><img src="docs/live-phone-podium-light.png" alt="The phone at the end: 2nd place, on the podium, look at the screen"></picture></td>
   </tr>
   <tr>
     <td align="center"><b>Join</b><br>A made-up name</td>
